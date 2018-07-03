@@ -431,8 +431,9 @@ img {
     bottom: 0;
     left: 0;
     background: rgba(0, 0, 0, 0.9);
-    background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.1) 90%, rgba(0, 0, 0, 0) 100%);
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.1) 90%, rgba(0, 0, 0, 0) 100%); }
+    background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.1) 25%, rgba(0, 0, 0, 0) 35%);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.1) 25%, rgba(0, 0, 0, 0) 35%); 
+}
 
 /*
 .grids {

@@ -58,14 +58,24 @@ def create_slide(file):
 			<div class="row h-100 align-items-end">
 				<div class="col-12">
 					<div class="hero-slides-content">
-						<div class="line"></div>
-						<h2>{}</h2>
-						<p>{}</p>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>""".format(file["filename"], file["title"], file["description"])
+	</div>""".format(file["filename"])
+	# slide_code = """<div class="single-hero-slide bg-img slide-background-overlay" style="background-image: url(img/slides/{}.jpg);">
+	# 	<div class="container h-100">
+	# 		<div class="row h-100 align-items-end">
+	# 			<div class="col-12">
+	# 				<div class="hero-slides-content">
+	# 					<div class="line"></div>
+	# 					<h2>{}</h2>
+	# 					<p>{}</p>
+	# 				</div>
+	# 			</div>
+	# 		</div>
+	# 	</div>
+	# </div>""".format(file["filename"], file["title"], file["description"])
 
 	print(slide_code)
 

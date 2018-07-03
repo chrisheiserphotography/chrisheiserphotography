@@ -1,28 +1,35 @@
 filename,title,description,location,slide,category
-01,Fly Fishing,A Rainbow Trout is released and rests before heading back down the water column.,Oregon,yes,flyfishing
-02,Willamette,A life without trees is no life for me. I love hiking and camping in forests.,Oregon,yes,landscapes
-03,Todd Lake,,Oregon,,landscapes
-04,Lower Antelope Canyon,"I'm from the desert, and I've wandered the desert. Check out the Grand Canyon, Antelope Canyon, Arches NP, and more.",Arizona,yes,landscapes
-05,Edge of the World,A night spent with many friends under the stars out at the Edge of the World.,Arizona,yes,landscapes
-06,Mt. Bachelor,A fresh snowfall covers the runs on Mt. Bachelor.,Oregon,yes,landscapes
-07,Time to Fish,Heading to the water after a night camping.,Arizona,,flyfishing
-08,Mt. Hood,Mt. Hood under the stars with a late night campfire,Oregon,,landscapes
-09,Mt. Hood,"A summer's sunset creating deep purples over Mt. Hood, OR",Oregon,yes,landscapes
-10,Sisters,Sisters glow red as the sunset lights up smoke from nearby wildfires.,Oregon,yes,landscapes
-11,Paulina,,Oregon,,landscapes
-12,Prescott,Sunset gradient over Prescott National Forest,Arizona,,landscapes
-13,Broken Top,Wildfire sunset over Broken Top,Oregon,,landscapes
-14,Flagstaff Aspens,,Arizona,,landscapes
-15,Sedona Snow,,Arizona,,landscapes
-16,Trail Bridge,McKenzie River Trail,Oregon,,landscapes
-17,McKenzie River,"Rivers, waterfalls, lakes, and ocean. Nothing draws the eye quite like water.",Oregon,yes,landscapes
-18,Tamolitch ,Seeping water from the side,Oregon,,landscapes
-19,Bridal Veil Falls,Waterfall off Telluride,Colorado,,landscapes
-20,Telluride,Sunset near Alta Lakes,Colorado,,landscapes
-21,Strong Spots,Redband trout from spring river,Oregon,,flyfishing
-22,Redband,Hatchery fish from Metolius,Oregon,,flyfishing
-23,Devils Lake,Last light at Devils Lake,Oregon,,flyfishing
-24,Dust Cloud,Underwater murk water Rainbow Trout,Arizona,,flyfishing
-25,Shallow Release,Underwater release from upriver,Arizona,,flyfishing
-26,Drake Park Reflection,,Oregon,,landscapes
-27,Sisters Rolling Fog,,Oregon,,landscapes
+flyfish_oregon_rainbow,Fly Fishing,A Rainbow Trout is released and rests before heading back down the water column.,Oregon,yes,flyfishing
+oregon_willamette_trail,Willamette,A life without trees is no life for me. I love hiking and camping in forests.,Oregon,yes,landscapes
+oregon_cascades_lakes,Todd Lake,,Oregon,,landscapes
+arizona_antelope_canyon,Lower Antelope Canyon,"I'm from the desert, and I've wandered the desert. Check out the Grand Canyon, Antelope Canyon, Arches NP, and more.",Arizona,yes,landscapes
+arizona_sedona_flagstaff_camp,Edge of the World,A night spent with many friends under the stars out at the Edge of the World.,Arizona,,landscapes
+oregon_bend_bachelor,Mt. Bachelor,A fresh snowfall covers the runs on Mt. Bachelor.,Oregon,yes,landscapes
+flyfish_arizona_morning,Time to Fish,Heading to the water after a night camping.,Arizona,,flyfishing
+oregon_hood_night,Mt. Hood,Mt. Hood under the stars with a late night campfire,Oregon,,landscapes
+oregon_hood_sunset,Mt. Hood,"A summer's sunset creating deep purples over Mt. Hood, OR",Oregon,,landscapes
+oregon_bend_sisters_sunset,Sisters,Sisters glow red as the sunset lights up smoke from nearby wildfires.,Oregon,yes,landscapes
+oregon_paulina_bend_sunset,Paulina,,Oregon,,landscapes
+arizona_prescott_sunset,Prescott,Sunset gradient over Prescott National Forest,Arizona,,landscapes
+oregon_bend_broken_top_sunset,Broken Top,Wildfire sunset over Broken Top,Oregon,,landscapes
+arizona_flagstaff_aspens,Flagstaff Aspens,,Arizona,,landscapes
+arizona_sedona_snow,Sedona Snow,,Arizona,,landscapes
+oregon_willamette_mckenzie,Trail Bridge,McKenzie River Trail,Oregon,,landscapes
+oregon_mckenzie_pool,McKenzie River,"Rivers, waterfalls, lakes, and ocean. Nothing draws the eye quite like water.",Oregon,yes,landscapes
+oregon_mckenzie_pool_side,Tamolitch ,Seeping water from the side,Oregon,,landscapes
+colorado_telluride_falls,Bridal Veil Falls,Waterfall off Telluride,Colorado,,landscapes
+colorado_telluride_alta,Telluride,Sunset near Alta Lakes,Colorado,,landscapes
+flyfish_oregon_redband,Strong Spots,Redband trout from spring river,Oregon,,flyfishing
+flyfish_oregon_wizard,Redband,Hatchery fish from Metolius,Oregon,,flyfishing
+flyfish_oregon_cascade_devils,Devils Lake,Last light at Devils Lake,Oregon,,flyfishing
+flyfish_arizona_lees_dusty,Dust Cloud,Underwater murk water Rainbow Trout,Arizona,,flyfishing
+flyfish_arizona_lees_upriver,Shallow Release,Underwater release from upriver,Arizona,,flyfishing
+oregon_bend_drake,Drake Park Reflection,,Oregon,,landscapes
+oregon_sisters_fog,Sisters Rolling Fog,,Oregon,,landscapes
+arizona_milky_way_ferry,Marble Canyon,,Arizona,yes,landscapes
+oregon_lake_reflection,Todd Lake,,Oregon,,landscapes
+sunriver_beer_ft_snowshoes,Tumalo,,Oregon,,products
+sunriver_beer_underwater,Beer Cooler,,Oregon,yes,products
+sunriver_beer_vm_crooked,Fishing Beer,,Oregon,,products
+flyfish_oregon_tyler_snow,Snowy Fishing,,Oregon,,flyfishing
+oregon_tumalo_winter_snow,Tumalo Snow,,Oregon,yes,landscapes
