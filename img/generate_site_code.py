@@ -85,8 +85,8 @@ def create_portfolio(file):
 	# Create thumbnail here
 	file = create_thumbnail(file)
 	portfolio_code = """<div class="col-12 col-sm-6 col-lg-3 single_gallery_item {0} wow fadeInUpBig" data-wow-delay="300ms">
-		<a class="gallery-img" href="img/photos/{1}.jpg"><img src="img/photos/{2}.jpg" alt=""></a>
-	</div>""".format(file["category"], file["filename"], file["thumbnail"])
+		<a class="gallery-img" href="img/photos/{1}.jpg"><img src="img/photos/{2}.jpg" alt="{3}" title="{4}"></a>
+	</div>""".format(file["category"], file["filename"], file["thumbnail"], file["description"], file["description"])
 
 	print(portfolio_code)
 
