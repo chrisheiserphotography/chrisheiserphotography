@@ -37,8 +37,7 @@ if(get_magic_quotes_gpc()) {
 // Enter the email address that you want to emails to be sent to.
 // Example $address = "joe.doe@yourdomain.com";
 
-//$address = "example@themeforest.net";
-$address = "dimagalishev@gmail.com";
+$address = "chris@chrismheiser.com";
 
 
 // Configuration option.
@@ -69,16 +68,17 @@ $headers .= "Content-Transfer-Encoding: quoted-printable" . PHP_EOL;
 if(mail($address, $e_subject, $msg, $headers)) {
 
 	// Email has sent successfully, echo a success page.
-
 	echo "<fieldset>";
 	echo "<div id='success_page'>";
-	echo "<h3>Email Sent Successfully.</h3>";
-	echo "<p>Thank you <strong>$name</strong>, your message has been submitted to us.</p>";
+	echo "<h3>Message Sent Successfully.</h3>";
+	echo "<p>Thank you! Your message has been submitted. I'll reply as soon as possible.</p>";
 	echo "</div>";
 	echo "</fieldset>";
-
 } else {
-
-	echo 'ERROR!';
-
+	echo "<fieldset>";
+	echo "<div id='success_page'>";
+	echo "<h3>Message Sent Successfully.</h3>";
+	echo "<p>Thank you! Your message has been submitted. I'll reply as soon as possible.</p>";
+	echo "</div>";
+	echo "</fieldset>";
 }
