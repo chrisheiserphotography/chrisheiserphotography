@@ -4,7 +4,7 @@ oregon_willamette_trail,Willamette,The setting sun peeks through the old growth 
 oregon_cascades_lakes,Todd Lake,The sunset hits a mountain peak near Todd Lake and the lake is calm,Oregon,,nature
 arizona_antelope_canyon,Lower Antelope Canyon,Waves form along the slot canyon walls of Antelope Canyon and lead up to the bright sun above,Arizona,yes,nature
 arizona_sedona_flagstaff_camp,Edge of the World,A night spent camping with friends under the stars near Sedona Arizona out at the Edge of the World.,Arizona,,nature
-oregon_bend_bachelor,Mt. Bachelor,A fresh snowfall covers the runs on Mt. Bachelor along the Cascade Highway in Central Oregon,Oregon,yes,nature
+oregon_bend_bachelor,Mt. Bachelor,A fresh snowfall covers the runs on Mt. Bachelor along the Cascade Highway in Central Oregon,Oregon,,nature
 flyfish_arizona_morning,Time to Fish,Heading to the water to start fishing in the early morning after camping.,Arizona,,flyfishing
 oregon_hood_night,Mt. Hood,Mt. Hood sits under the stars as a late night campfire shines along the lake shore.,Oregon,,nature
 oregon_hood_sunset,Mt. Hood,A summer sunset creates deep purples skies over Mt. Hood in Oregon,Oregon,,nature
@@ -33,3 +33,8 @@ sunriver_beer_underwater,Beer Cooler,Underwater view of Sunriver six pack of bee
 sunriver_beer_vm_crooked,Fishing Beer,Sunriver Vicious Mosquito is in hand as angler walks to the next spot.,Oregon,,brands
 flyfish_oregon_tyler_snow,Snowy Fishing,Tyler fishes the Crooked River as snow falls down in the canyon. ,Oregon,,flyfishing
 oregon_tumalo_winter_snow,Tumalo Snow,Snow begins to cover Tumalo Creek  and Tumalo Falls as Winter progresses.,Oregon,yes,nature
+flyfish_arizona_suckertail,Measure Sucker against the net,,Arizona,,flyfishing
+flyfish_arizona_suckerschool, School of suckers,,Arizona,,flyfishing
+flyfish_oregon_bull,Mean Bull release,,Oregon,yes,flyfishing
+flyfish_oregon_tyler2,Tyler on lake opener,,Oregon,,flyfishing
+flyfish_arizona_ferry_canyon,Angler under the canyon walls,,Arizona,,flyfishing
