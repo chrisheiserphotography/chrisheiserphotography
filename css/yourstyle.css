@@ -1,3 +1,19 @@
 /*******************************************************************************
  Add your custom css styles here
  *******************************************************************************/
+
+
+#shopgrid {
+    overflow: scroll !important;
+    outline: none;
+    height: auto;
+    background: #fff;
+}
+
+#whitebg {
+    background: #fff;
+}
+
+#spacing {
+    margin: 50px;
+}
