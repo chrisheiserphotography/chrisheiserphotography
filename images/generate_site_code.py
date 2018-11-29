@@ -101,7 +101,8 @@ for file in files:
 print("========================== PORTFOLIO CODE =============================")
 
 for file in files:
-	create_portfolio(file)
+	if(file["portfolio"]):
+		create_portfolio(file)
 
 
 

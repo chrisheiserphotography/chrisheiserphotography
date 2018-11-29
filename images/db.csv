@@ -1,40 +1,60 @@
-filename,title,description,location,slide,category
-flyfish_oregon_rainbow,Fly Fishing,Underwater release of a rainbow trout as it rests before swimming away.,Oregon,yes,flyfishing
-oregon_willamette_trail,Willamette,The setting sun peeks through the old growth forest and lights up the trail. ,Oregon,yes,nature
-oregon_cascades_lakes,Todd Lake,The sunset hits a mountain peak near Todd Lake and the lake is calm,Oregon,,nature
-arizona_antelope_canyon,Lower Antelope Canyon,Waves form along the slot canyon walls of Antelope Canyon and lead up to the bright sun above,Arizona,yes,nature
-arizona_sedona_flagstaff_camp,Edge of the World,A night spent camping with friends under the stars near Sedona Arizona out at the Edge of the World.,Arizona,,nature
-oregon_bend_bachelor,Mt. Bachelor,A fresh snowfall covers the runs on Mt. Bachelor along the Cascade Highway in Central Oregon,Oregon,,nature
-flyfish_arizona_morning,Time to Fish,Heading to the water to start fishing in the early morning after camping.,Arizona,,flyfishing
-oregon_hood_night,Mt. Hood,Mt. Hood sits under the stars as a late night campfire shines along the lake shore.,Oregon,,nature
-oregon_hood_sunset,Mt. Hood,A summer sunset creates deep purples skies over Mt. Hood in Oregon,Oregon,,nature
-oregon_bend_sisters_sunset,Sisters,Sisters mountains glow red as the sunset lights up smoke from nearby wildfires.,Oregon,yes,nature
-oregon_paulina_bend_sunset,Paulina,A calm sunset high above Central Oregon at Paulina peak,Oregon,,nature
-arizona_prescott_sunset,Prescott,Sunset gradient of orange and blue over Prescott National Forest in Arizona,Arizona,,nature
-oregon_bend_broken_top_sunset,Broken Top,Wildfire sunset over Broken Top creates a dark orange sky.,Oregon,,nature
-arizona_flagstaff_aspens,Flagstaff Aspens,Aspen tree leaves turn bright yellow at Mt Humphreys in Flagstaff Arizona,Arizona,,nature
-arizona_sedona_snow,Sedona Snow,Snow rests on top of the rock walls of Oak Creek Canyon in Sedona Arizona,Arizona,,nature
-oregon_willamette_mckenzie,Trail Bridge,Water rushes below a foot bridge near the McKenzie River in Oregon,Oregon,,nature
-oregon_mckenzie_pool,McKenzie River,Water flows from the rock wall of Tamolitch Pool with fall colors surrounding it,Oregon,yes,nature
-oregon_mckenzie_pool_side,Tamolitch ,A lower perspective of water seeping from the wall at Tamolitch Pool,Oregon,,nature
-colorado_telluride_falls,Bridal Veil Falls,Bridal Veil Falls near Telluride Colorado,Colorado,,nature
-colorado_telluride_alta,Telluride,A sunset over the San Juan Mountains in Colorado,Colorado,,nature
-flyfish_oregon_redband,Strong Spots,Underwater release of a rainbow trout with plentiful spots and good color,Oregon,,flyfishing
-flyfish_oregon_wizard,Redband,Redband trout swim around the viewing pond of Wizard Falls hatchery at the Metolius River,Oregon,,flyfishing
-flyfish_oregon_cascade_devils,Devils Lake,An angler walks into the lake as the last light starts to fade on Devils Lake,Oregon,,flyfishing
-flyfish_arizona_lees_dusty,Dust Cloud,Underwater release of a rainbow trout in front of a loose sediment dust cloud at Lee's Ferry in Marble Canyon Arizona,Arizona,,flyfishing
-flyfish_arizona_lees_upriver,Shallow Release,Underwater release of a wild Lee's Ferry rainbow trout at an upriver location.,Arizona,,flyfishing
-oregon_bend_drake,Drake Park Reflection,The calm water of Mirror Pond at Drake Park on the Deschutes River reflect the houses on the shore.,Oregon,,nature
-oregon_sisters_fog,Sisters Rolling Fog,Fog rolls along the tops of the Sisters Mountains in Central Oregon,Oregon,,nature
-arizona_milky_way_ferry,Marble Canyon,The Milky Way appears over the Vermillion Cliffs of Marble Canyon with a campfire lighting the walls below.,Arizona,yes,nature
-oregon_lake_reflection,Todd Lake,The sun lights the tips of the trees along Todd Lake as they reflect on the calm water,Oregon,,nature
-sunriver_beer_ft_snowshoes,Tumalo,Sunriver Fuzztail beer with a snowshoe hike to Tumalo Falls,Oregon,,brands
-sunriver_beer_underwater,Beer Cooler,Underwater view of Sunriver six pack of beer as it chills in the spring river water,Oregon,yes,brands
-sunriver_beer_vm_crooked,Fishing Beer,Sunriver Vicious Mosquito is in hand as angler walks to the next spot.,Oregon,,brands
-flyfish_oregon_tyler_snow,Snowy Fishing,Tyler fishes the Crooked River as snow falls down in the canyon. ,Oregon,,flyfishing
-oregon_tumalo_winter_snow,Tumalo Snow,Snow begins to cover Tumalo Creek  and Tumalo Falls as Winter progresses.,Oregon,yes,nature
-flyfish_arizona_suckertail,Measure Sucker against the net,,Arizona,,flyfishing
-flyfish_arizona_suckerschool, School of suckers,,Arizona,,flyfishing
-flyfish_oregon_bull,Mean Bull release,,Oregon,yes,flyfishing
-flyfish_oregon_tyler2,Tyler on lake opener,,Oregon,,flyfishing
-flyfish_arizona_ferry_canyon,Angler under the canyon walls,,Arizona,,flyfishing
+filename,title,description,location,slide,portfolio,category
+flyfish_oregon_rainbow,Fly Fishing,Underwater release of a rainbow trout as it rests before swimming away.,Oregon,,yes,flyfishing
+oregon_willamette_trail,Willamette,The setting sun peeks through the old growth forest and lights up the trail. ,Oregon,,yes,nature
+oregon_cascades_lakes,Todd Lake,The sunset hits a mountain peak near Todd Lake and the lake is calm,Oregon,,,nature
+arizona_antelope_canyon,Lower Antelope Canyon,Waves form along the slot canyon walls of Antelope Canyon and lead up to the bright sun above,Arizona,,yes,nature
+arizona_sedona_flagstaff_camp,Edge of the World,A night spent camping with friends under the stars near Sedona Arizona out at the Edge of the World.,Arizona,,,nature
+oregon_bend_bachelor,Mt. Bachelor,A fresh snowfall covers the runs on Mt. Bachelor along the Cascade Highway in Central Oregon,Oregon,,,nature
+flyfish_arizona_morning,Time to Fish,Heading to the water to start fishing in the early morning after camping.,Arizona,,,flyfishing
+oregon_hood_night,Mt. Hood,Mt. Hood sits under the stars as a late night campfire shines along the lake shore.,Oregon,,,nature
+oregon_hood_sunset,Mt. Hood,A summer sunset creates deep purples skies over Mt. Hood in Oregon,Oregon,,,nature
+oregon_bend_sisters_sunset,Sisters,Sisters mountains glow red as the sunset lights up smoke from nearby wildfires.,Oregon,,yes,nature
+oregon_paulina_bend_sunset,Paulina,A calm sunset high above Central Oregon at Paulina peak,Oregon,,,nature
+arizona_prescott_sunset,Prescott,Sunset gradient of orange and blue over Prescott National Forest in Arizona,Arizona,,yes,nature
+oregon_bend_broken_top_sunset,Broken Top,Wildfire sunset over Broken Top creates a dark orange sky.,Oregon,,,nature
+arizona_flagstaff_aspens,Flagstaff Aspens,Aspen tree leaves turn bright yellow at Mt Humphreys in Flagstaff Arizona,Arizona,,,nature
+arizona_sedona_snow,Sedona Snow,Snow rests on top of the rock walls of Oak Creek Canyon in Sedona Arizona,Arizona,,,nature
+oregon_willamette_mckenzie,Trail Bridge,Water rushes below a foot bridge near the McKenzie River in Oregon,Oregon,,yes,nature
+oregon_mckenzie_pool,McKenzie River,Water flows from the rock wall of Tamolitch Pool with fall colors surrounding it,Oregon,,yes,nature
+oregon_mckenzie_pool_side,Tamolitch ,A lower perspective of water seeping from the wall at Tamolitch Pool,Oregon,,,nature
+colorado_telluride_falls,Bridal Veil Falls,Bridal Veil Falls near Telluride Colorado,Colorado,,,nature
+colorado_telluride_alta,Telluride,A sunset over the San Juan Mountains in Colorado,Colorado,,,nature
+flyfish_oregon_redband,Strong Spots,Underwater release of a rainbow trout with plentiful spots and good color,Oregon,,,flyfishing
+flyfish_oregon_wizard,Redband,Redband trout swim around the viewing pond of Wizard Falls hatchery at the Metolius River,Oregon,,yes,flyfishing
+flyfish_oregon_cascade_devils,Devils Lake,An angler walks into the lake as the last light starts to fade on Devils Lake,Oregon,,,flyfishing
+flyfish_arizona_lees_dusty,Dust Cloud,Underwater release of a rainbow trout in front of a loose sediment dust cloud at Lee's Ferry in Marble Canyon Arizona,Arizona,,,flyfishing
+flyfish_arizona_lees_upriver,Shallow Release,Underwater release of a wild Lee's Ferry rainbow trout at an upriver location.,Arizona,,yes,flyfishing
+oregon_bend_drake,Drake Park Reflection,The calm water of Mirror Pond at Drake Park on the Deschutes River reflect the houses on the shore.,Oregon,,,nature
+oregon_sisters_fog,Sisters Rolling Fog,Fog rolls along the tops of the Sisters Mountains in Central Oregon,Oregon,,,nature
+arizona_milky_way_ferry,Marble Canyon,The Milky Way appears over the Vermillion Cliffs of Marble Canyon with a campfire lighting the walls below.,Arizona,,yes,nature
+oregon_lake_reflection,Todd Lake,The sun lights the tips of the trees along Todd Lake as they reflect on the calm water,Oregon,,,nature
+sunriver_beer_ft_snowshoes,Tumalo,Sunriver Fuzztail beer with a snowshoe hike to Tumalo Falls,Oregon,,,brands
+sunriver_beer_underwater,Beer Cooler,Underwater view of Sunriver six pack of beer as it chills in the spring river water,Oregon,,,brands
+sunriver_beer_vm_crooked,Fishing Beer,Sunriver Vicious Mosquito is in hand as angler walks to the next spot.,Oregon,,,brands
+flyfish_oregon_tyler_snow,Snowy Fishing,Tyler fishes the Crooked River as snow falls down in the canyon. ,Oregon,,,flyfishing
+oregon_tumalo_winter_snow,Tumalo Snow,Snow begins to cover Tumalo Creek  and Tumalo Falls as Winter progresses.,Oregon,,yes,nature
+flyfish_arizona_suckertail,Measure Sucker against the net,,Arizona,,yes,flyfishing
+flyfish_arizona_suckerschool, School of suckers,,Arizona,,,flyfishing
+flyfish_oregon_bull,Mean Bull release,,Oregon,,yes,flyfishing
+flyfish_oregon_tyler2,Tyler on lake opener,,Oregon,,,flyfishing
+flyfish_arizona_ferry_canyon,Angler under the canyon walls,,Arizona,,,flyfishing
+oregon_proxy,,,,,,
+drone_wickiup,,,,,yes,nature
+oregon_lake_treeline,,,,,yes,nature
+brook_fin_closeup,,,,,yes,flyfising
+brown_underwater_face,,,,,yes,flyfishing
+brown_underwater_split,,,,,,flyfishing
+chum_release_face,,,,,yes,flyfishing
+oregon_hood_sunset_close,,,,,yes,nature
+oregon_crater_winter_blue,,,,,yes,nature
+oregon_pool_side_close,,,,,yes,nature
+oregon_broken_top_smoke,,,,,yes,nature
+rainbow_underwater_leaving,,,,,yes,flyfishing
+california_mt_shasta,,,,,yes,nature
+arizona_watson_sunset,,,,,yes,nature
+oregon_hood_far,,,,,,nature
+rainbow_tail_leave,,,,,yes,flyfishing
+drone_tree_line,,,,,yes,nature
+drone_sherman,,,,,yes,nature
+,,,,,,
+,,,,,,
