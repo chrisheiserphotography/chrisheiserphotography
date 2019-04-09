@@ -89,7 +89,7 @@ def create_portfolio(file):
 
 files = read_csv("db.csv")
 # print(files)
-
+ 
 print("========================== SLIDE CODE =============================")
 
 for file in files: 
@@ -97,7 +97,7 @@ for file in files:
 		create_slide(file)
 
 
-
+ 
 print("========================== PORTFOLIO CODE =============================")
 
 for file in files:
