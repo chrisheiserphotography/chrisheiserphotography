@@ -1,0 +1,252 @@
+/* MAIN */
+
+html {
+    overflow-x:hidden !important;
+    height:100%;
+    background-color: white;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Big Caslon,adobe-caslon-pro,serif;
+    font-weight: 300;
+    font-size: 12px;
+    color: #000;
+    background:white;
+    height:100%;
+}
+
+
+/* CONTAINERS */
+.container {
+    max-width:100%;
+    max-height:100%;
+    margin:auto;
+    position:relative;
+    display:inline-block;
+    padding: 0 !important;
+}
+
+.tilecontainer {
+    width:100%;
+    margin-right:auto;
+    margin-left:auto;
+    position:relative;
+}
+
+
+/* HERO BANNER */
+.heroimgs {
+    /*Had issue with div taking up 0px height while images inside. Hide 
+    overflow to fix */
+    position: inherit;
+    width:105%;  
+    overflow: hidden;
+}
+
+
+.heroimgs img {
+    /* Stretch the two images slightly over the viewport, and pull margin left to make a full wrap. */
+    top: 0;
+    display:block;
+    float:left;
+    max-width: 110%;
+    margin-left: -2em;
+}
+
+#herouggs {
+    /* Since this image is wildly oversized in the height department, hide the overflow and position absolute so it sits on the space image. Pull margin up dramatically to compensate blank area. */
+    position: absolute;
+    overflow: hidden;
+    z-index: 3;
+}
+
+
+/* LOGOS */
+
+.logo {
+    text-align: center;
+}
+
+.logo img {
+    width:20%
+}
+
+#rewardslogo {
+    width:80%;
+    margin: 0 !important;
+}
+
+
+/* GRID TILES */ 
+
+.tile {
+    opacity: 0;
+    transform: translateY(2em);
+    transition: all 2.5s linear 0s;
+    will-change: transform, opacity;
+}
+
+.tile.show {
+    opacity: 1;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* Hidden Product name labels */
+.hidden-label {
+    color: black;
+    background-color: #DFE0E1;  
+    position: absolute;
+    bottom:0;
+    right:0;
+}
+
+/* Double tile is for the rows that have two product tiles */
+.doubletile {
+    background-color: white;
+/*    border: 1px dashed black;*/
+}
+
+.doubletile img {
+    margin:auto;
+    max-width: 70%;
+    background-color: #F8F9FA;
+}
+
+
+.rewards {
+    margin-top: 2em;
+    height: 200px;
+    width: 70%;
+    display:inline-block;
+}
+
+.rewards img {
+    margin: 20px;
+}
+
+
+/* Wide and Tall are for sizing the 3 imgs for the infant shoes */
+.wide {
+    padding: 20% auto;
+    width: 35%;
+}
+.tall {
+    padding: 20% auto;
+    width: 20%;
+}
+
+/* Grey background for tiles */
+.grey {
+    background-color: #F8F9FA;
+}
+
+/* Floating Tiles left and right in desktop view */
+.right {
+    float: right;
+}
+.left {
+    float: left;
+}
+
+/* Ugg Font for titles and headers */
+.title {
+    font-family: Big Caslon,adobe-caslon-pro,serif;
+    font-weight: 300
+}
+
+/* Ugg Font for paragraphs and subheadings */
+.subtitle { 
+    width: 75%;
+    font-family: proxima-nova,sans-serif;
+    font-weight:100;
+    letter-spacing: 1px;
+    line-height: 1.7;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.centered{
+    text-align: center;
+    margin: 20px;
+}
+
+.centered p {
+    display: inline-block
+}
+
+/* For any elements that need to hide from Desktop view */
+#hideondesktop {
+    visibility: hidden;
+    clear: both;
+    display: none;
+}
+
+/* Mobile Devices */
+@media all and (max-width: 778px){
+    
+    /* Hide
+    Intro paragraph above hero banner
+    Child's r2d2 boots triple
+    */
+    #hideonmobile {
+        visibility: hidden;
+        clear: both;
+        display: none;
+    }
+    
+    /* Show
+    Intro paragraph underneath hero banner
+    Child's r2d2 boots single
+    */
+    #hideondesktop {
+        visibility: visible;
+        clear: both;
+        display: block;
+    }
+}
+
+
+/*----------*/
+
+
+.pulse{
+    background:transparent url(assets/blackout.png) repeat top center;
+    z-index:1;
+    position:absolute;
+    width:100%;
+    height:100%;
+    display:block;
+    -moz-animation:move-pulse 30s linear infinite;
+    -ms-animation:move-pulse 30s linear infinite;
+    -o-animation:move-pulse 30s linear infinite;
+    -webkit-animation:move-pulse 30s linear infinite;
+    animation:move-pulse 30s linear infinite;
+
+}
+
+
+@keyframes move-pulse {
+    from {background-position:0 0;}
+    to {background-position:0px 1000px;}
+}
+@-webkit-keyframes move-pulse {
+    from {background-position:0 0;}
+    to {background-position:0px 1000px;}
+}
+@-moz-keyframes move-pulse {
+    from {background-position:0 0;}
+    to {background-position:0px 1000px;}
+}
+@-ms-keyframes move-twink {
+    from {background-position:0 0;}
+    to {background-position:0px 1000px;}
+}
+
+
+
