@@ -67,15 +67,16 @@ body{
 
 .logo {
     text-align: center;
+    margin: 20px auto;
 }
 
 .logo img {
     width:20%
 }
 
+
 #rewardslogo {
-    width:80%;
-    margin: 0 !important;
+    width: 100%;
 }
 
 
@@ -120,14 +121,19 @@ a {
 
 
 .rewards {
-    margin-top: 2em;
-    height: 200px;
+    margin: 20px auto;
     width: 70%;
-    display:inline-block;
+    display:block;
+    text-align: center;
 }
 
-.rewards img {
+.rewards + img {
     margin: 20px;
+}
+
+.rewardsmsg {
+    margin: 0 auto;
+    width: 100% !important;
 }
 
 
