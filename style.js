@@ -6,7 +6,6 @@ function loop() {
 
 Array.prototype.forEach.call(elements, function(element){
     if (inView(element)) {
-        console.log("Adding");
         element.classList.add('show');
     }
 });
