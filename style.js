@@ -48,4 +48,34 @@ $(document).ready(function(){
     $("#spacejam").mouseleave(function(){
         $(".pulse").css("animation-play-state", "paused");
     });
+    $(".kbb8").mouseenter(function(){
+        $(".kbb8").next("h3").css("opacity", "1");
+    });
+    $(".kbb8").mouseleave(function(){
+        $(".kbb8").next("h3").css("opacity", "0");
+    });
+    $(".tbb8").mouseenter(function(){
+        $(".tbb8").next("h3").css("opacity", "1");
+    });
+    $(".tbb8").mouseleave(function(){
+        $(".tbb8").next("h3").css("opacity", "0");
+    });
+    $(".kr2d2").mouseenter(function(){
+        $(".kr2d2").next("h3").css("opacity", "1");
+    });
+    $(".kr2d2").mouseleave(function(){
+        $(".kr2d2").next("h3").css("opacity", "0");
+    });
+    $(".tr2d2").mouseenter(function(){
+        $(".tr2d2").next("h3").css("opacity", "1");
+    });
+    $(".tr2d2").mouseleave(function(){
+        $(".tr2d2").next("h3").css("opacity", "0");
+    });
+    $(".cr2d2").mouseenter(function(){
+        $(".cr2d2").next("h3").css("opacity", "1");
+    });
+    $(".cr2d2").mouseleave(function(){
+        $(".cr2d2").next("h3").css("opacity", "0");
+    });
 });
