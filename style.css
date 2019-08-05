@@ -38,8 +38,6 @@ body{
 
 /* HERO BANNER */
 .heroimgs {
-    /*Had issue with div taking up 0px height while images inside. Hide 
-    overflow to fix */
     position: inherit;
     width:105%;  
     overflow: hidden;
@@ -47,7 +45,6 @@ body{
 
 
 .heroimgs img {
-    /* Stretch the two images slightly over the viewport, and pull margin left to make a full wrap. */
     top: 0;
     display:block;
     float:left;
@@ -56,10 +53,18 @@ body{
 }
 
 #herouggs {
-    /* Since this image is wildly oversized in the height department, hide the overflow and position absolute so it sits on the space image. Pull margin up dramatically to compensate blank area. */
     position: absolute;
     overflow: hidden;
     z-index: 3;
+}
+
+#spacejam:hover {
+    
+}
+
+
+#bottom-p {
+    margin-top: 20px !important;
 }
 
 
@@ -67,7 +72,7 @@ body{
 
 .logo {
     text-align: center;
-    margin: 20px auto;
+    margin: 30px auto;
 }
 
 .logo img {
@@ -76,7 +81,8 @@ body{
 
 
 #rewardslogo {
-    width: 100%;
+    width:40%;
+    margin: auto;
 }
 
 
@@ -86,7 +92,6 @@ body{
     opacity: 0;
     transform: translateY(2em);
     transition: all 2.5s linear 0s;
-    will-change: transform, opacity;
 }
 
 .tile.show {
@@ -97,14 +102,18 @@ a {
     text-decoration: none;
 }
 
+.product {
+    background: url(assets/kids_orange_main.png);
+    width:100%;
+    height: 100%;
+    overflow:hidden;
+}
 
 /* Hidden Product name labels */
 .hidden-label {
     color: black;
     background-color: #DFE0E1;  
-    position: absolute;
-    bottom:0;
-    right:0;
+    bottom: 0;
 }
 
 /* Double tile is for the rows that have two product tiles */
@@ -119,6 +128,16 @@ a {
     background-color: #F8F9FA;
 }
 
+/* Triple tile is for infant r2d2 tile */
+.tripletile {
+    background-color: #F8F9FA;
+}
+
+.tripletile img {
+    margin:auto;
+    max-width: 70%;
+    background-color: #F8F9FA;
+}
 
 .rewards {
     margin: 20px auto;
@@ -131,17 +150,31 @@ a {
     margin: 20px;
 }
 
-.rewardsmsg {
-    margin: 0 auto;
+.rewards-bot {
+    margin: 0 auto !important;
     width: 100% !important;
+}
+
+.rewards-top {
+    margin: 30px auto 0 auto !important;
+}
+
+.rewards-bot p {
+    width: 85% !important;
 }
 
 
 /* Wide and Tall are for sizing the 3 imgs for the infant shoes */
+#childwidth {
+    padding: 20% auto;
+    width: 35%;
+}
+
 .wide {
     padding: 20% auto;
     width: 35%;
 }
+
 .tall {
     padding: 20% auto;
     width: 20%;
@@ -153,10 +186,10 @@ a {
 }
 
 /* Floating Tiles left and right in desktop view */
-.right {
+#right {
     float: right;
 }
-.left {
+#left {
     float: left;
 }
 
@@ -177,14 +210,22 @@ a {
     text-transform: uppercase;
 }
 
-.centered{
+.center{
     text-align: center;
-    margin: 20px;
 }
 
-.centered p {
+.center p {
     display: inline-block
 }
+
+.md-margin {
+    margin: 20px auto;
+}
+
+.sm-margin {
+    margin: 10px auto;
+}
+
 
 /* For any elements that need to hide from Desktop view */
 #hideondesktop {
@@ -195,6 +236,20 @@ a {
 
 /* Mobile Devices */
 @media all and (max-width: 778px){
+    
+    .tripletile {
+        background-color: white !important;
+    }
+    
+    #childwidth {
+        padding: 0 !important;
+        width: 70% !important;
+        max-width: 70% !important;    
+    }
+    
+    #right {
+        float: none !important;
+    }
     
     /* Hide
     Intro paragraph above hero banner
@@ -225,31 +280,67 @@ a {
     background:transparent url(assets/blackout.png) repeat top center;
     z-index:1;
     position:absolute;
-    width:100%;
-    height:100%;
+    overflow:hidden;
+    width: 1500px;
+    height: 1000px;
     display:block;
-    -moz-animation:move-pulse 30s linear infinite;
-    -ms-animation:move-pulse 30s linear infinite;
-    -o-animation:move-pulse 30s linear infinite;
-    -webkit-animation:move-pulse 30s linear infinite;
-    animation:move-pulse 30s linear infinite;
+}
 
+.pulse:hover {
+    -moz-animation:spin 20s linear infinite;
+    -ms-animation:spin 20s linear infinite;
+    -o-animation:spin 20s linear infinite;
+    -webkit-animation:spin 20s linear infinite;
+    animation:spin 20s linear infinite;
 }
 
 
-@keyframes move-pulse {
+/*
+
+@-ms-keyframes spin { 
+    from { 
+        -ms-transform: rotate(0deg); 
+    } to { 
+        -ms-transform: rotate(360deg); 
+    }
+}
+@-moz-keyframes spin { 
+    from { 
+        -moz-transform: rotate(0deg); 
+    } to { 
+        -moz-transform: rotate(360deg); 
+    }
+}
+@-webkit-keyframes spin { 
+    from { 
+        -webkit-transform: rotate(0deg); 
+    } to { 
+        -webkit-transform: rotate(360deg); 
+    }
+}
+@keyframes spin { 
+    from { 
+        transform: rotate(0deg); 
+    } to { 
+        transform: rotate(360deg); 
+    }
+}
+*/
+
+
+@keyframes spin {
     from {background-position:0 0;}
     to {background-position:0px 1000px;}
 }
-@-webkit-keyframes move-pulse {
+@-webkit-keyframes spin {
     from {background-position:0 0;}
     to {background-position:0px 1000px;}
 }
-@-moz-keyframes move-pulse {
+@-moz-keyframes spin {
     from {background-position:0 0;}
     to {background-position:0px 1000px;}
 }
-@-ms-keyframes move-twink {
+@-ms-keyframes spin {
     from {background-position:0 0;}
     to {background-position:0px 1000px;}
 }

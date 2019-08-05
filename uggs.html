@@ -7,21 +7,26 @@
     </head>
 
     <body>
-        <div class="container">
-            
-            <div class="row clearfix">
-                <div class="col-12-sm logo">
+        <div class="container"> <!-- Start of Top section -->
+            <!- SW x UGG logo and Intro paragraph (on desktop) ->
+            <div class="row">
+                <div class="col-sm-12 col-md-8 logo">
                     <img src="assets/star_wars_ugg_logo.png">
                 </div>
-                <div id="hideonmobile" class="centered">
+                <!-- Since this paragraph jumps below the Hero banner on mobile, it gets hidden when the mobile media query activates -->
+                <div id="hideonmobile" class="center md-margin">
                     <p class="subtitle">Just in time for the launch of <i>Star Wars: The Last Jedi</i>, our droid collection brings the kid-favorite characters BB-8 and R2-D2 to life in soft, lightweight boots. Now your little one can channel the force at school, on the playground, or any adventure in a galaxy far, far away...</p>
                 </div>
             </div>
 
             
-            <div class="row">
-                <div id="spacejam" class="heroimgs">
-                    <div class="col-sm-12">
+            <!-- HERO BANNER -->
+            <!-- Add the images and animations to a Row, Make one full width column, and place all the assets in that one column -->
+            <div class="row" id="spacejam">
+                <div class="heroimgs">
+                    <div class="col-sm-12 col-md-12">
+                        <!-- Stack the images and animation -->
+                        <!-- Space image is position z-index=1, Animation is z-index=2 and absolute, and the droids you're looking for are z-index=3 and absolute-->
                         <img src="assets/hyperspeed.png">
                         <div class="pulse"></div>
                         <img id="herouggs" src="assets/hero_shoes2.png">
@@ -30,109 +35,99 @@
             </div>
             
             <div class="row">
-                <div id="hideondesktop" class="centered">
-                    <p class="subtitle">Just in time for the launch of <i>Star Wars: The Last Jedi</i>, our droid collection brings the kid-favorite characters BB-8 and R2-D2 to life in soft, lightweight boots. Now your little one can channel the force at school, on the playground, or any adventure in a galaxy far, far away...</p>
+                <!-- This intro paragraph appears on mobile below the hero banner. It's the inverse of the other paragraph, on an @media switch -->
+                <div id="hideondesktop" class="center md-margin">
+                    <p id="bottom-p" class="subtitle">Just in time for the launch of <i>Star Wars: The Last Jedi</i>, our droid collection brings the kid-favorite characters BB-8 and R2-D2 to life in soft, lightweight boots. Now your little one can channel the force at school, on the playground, or any adventure in a galaxy far, far away...</p>
                 </div>
             </div>
-
-        </div>
+            
+        </div> <!-- End of Top section --> 
         
         
         
 
+        <!-- Start of bottom section. Products and tiles -->
         <div class="tilecontainer">
-            <div class="row centered">
-                <div id="hideonmobile" class="col-sm-8 grey logo">
+            
+            <!-- Start Rewards Section -->
+            <div class="row center">
+                <div class="col-md-8 col-sm-6 grey logo">
                     <div class="rewards">
-                        <img src="assets/rewards_logo.png">
-                        <br>
-                        <h4 class="title">UGG REWARDS PERK</h4>
-                        <p class="subtitle">As an Ugg reward memeber, you get exclusive access to these ugg x star wars boots.</p>
-                    </div>
-                </div>
-                <div id="hideondesktop" class="col-sm-6 grey logo">
-                    <div class="rewards">
-                        <div class="row centered">
-                            <img id="rewardslogo" accesskey=""src="assets/rewards_logo.png">
+                        <div class="row">
+                            <div class="sm-margin center">
+                                <img id="rewardslogo" accesskey=""src="assets/rewards_logo.png">
+                            </div>
                         </div>
                         <div class="row">
-                            <h4 class="title">UGG REWARDS PERK</h4>
+                            <div class="col-xs-12 col-md-8 sm-margin center rewards-top">
+                                <h4 class="title">UGG REWARDS PERK</h4>
+                            </div>
                         </div>
                         <div class="row">
-                            <div class="centered">
-                                <p class="subtitle rewardsmsg">As an Ugg reward memeber, you get exclusive access to these ugg x star wars boots.</p>
+                            <div class="col-xs-12 col-md-8 center sm-margin rewards-bot">
+                                <p class="subtitle reward-p">As an Ugg reward memeber, you get exclusive access to these ugg x star wars boots.</p>
                             </div>
 
                         </div>
 
                     </div>
                 </div>
-            </div>
-            
-            
-            <div class="row centered tile scroll">
-                <div id ="hideonmobile" class="col-md-6 doubletile">
-                    <a href="https://www.ugg.com/classic-ii-bb-8/1093709K.html">
-                        <div>
-                            <img class="right" src="assets/kids_orange_main.png">
-                            <span class="hidden-label">CLASSIC II BB-8</span>
-                        </div>
+            </div> <!-- End Rewards Section -->
 
-                    </a>
+            
+            <!-- Start Kids BB-8 Orange -->
+            <div class="row center md-margin tile scroll">
+                
+                <!-- Desktop -->
+                <div class="col-sm-12 col-md-6 doubletile">
+                    <a href="https://www.ugg.com/classic-ii-bb-8/1093709K.html">
+                        <img id="right" src="assets/kids_orange_main.png">
+                        <div class="hidden-label">KIDS CLASSIC II BB-8</div>
+                    </a>    
+
                 </div>
                 <div id="hideonmobile" class="col-md-6 doubletile">
                     <a href="https://www.ugg.com/classic-ii-bb-8/1093709T.html">
-                    <img class="left" src="assets/kids_orange_back.png">
+                    <img id="left" src="assets/kids_orange_back.png">
                     </a>
                 </div>
-                <div id="hideondesktop" class="col-sm-6 doubletile">
-                    <a href="https://www.ugg.com/classic-ii-bb-8/1093709K.html">
-                        <img src="assets/kids_orange_main.png">
-                        <div class="hidden-label">CLASSIC II BB-8</div>
-                    </a>
-                </div>
-            </div>
-            
-            <div class="row centered tile scroll">
-                <div id="hideonmobile" class="col-md-6 doubletile">
+            </div> <!-- End Kids BB-8 Orange -->
+
+            <!-- Start Kids R2-D2 Blue -->
+            <div class="row center md-margin tile scroll">
+                
+                <!-- Desktop -->
+                <div class="col-sm-12 col-md-6 doubletile">
                     <a href="https://www.ugg.com/classic-ii-r2-d2/1095134K.html">
-                    <img class="right" src="assets/kids_blue_main.png">
+                    <img id="right" src="assets/kids_blue_main.png">
                     </a>
                 </div>
                 <div id="hideonmobile" class="col-md-6 doubletile">
                     <a href="https://www.ugg.com/classic-ii-r2-d2/1095134T.html">
-                    <img class="left" src="assets/kids_blue_back.png">
+                    <img id="left" src="assets/kids_blue_back.png">
                     </a>
                 </div>
-                <div id="hideondesktop" class="col-sm-6 doubletile">
-                    <a href="https://www.ugg.com/classic-ii-r2-d2/1095134K.html">
-                        <img src="assets/kids_blue_main.png">
-                    </a>
-                </div>
-            </div>
+            </div> <!-- End Kids R2-D2 Blue -->
+
             
-            <div class="row centered tile scroll">
-                <div id="hideonmobile" class="col-md-8 offset-2 grey">
-                    <div class="tripleimg">
+            <!-- Start Infant R2-D2 Blue -->
+            <div class="row center md-margin tile scroll">
+                
+                <!-- Desktop -->
+                <div class="col-sm-12 col-md-8 offset-md-2 tripletile">
                         <a href="https://www.ugg.com/jesse-r2-d2/1095138I.html">
-                        <img class="wide" src="assets/child_blue_main_alpha.png">
-                        <img class="wide" src="assets/child_blue_back_alpha.png">
-                        <img class="tall" src="assets/child_blue_bottom_alpha.png">
+                            <img id="childwidth" class="wide" src="assets/child_blue_main_alpha.png">
+                            <img id="hideonmobile" class="wide" src="assets/child_blue_back_alpha.png">
+                            <img id="hideonmobile" class="tall" src="assets/child_blue_bottom_alpha.png">
+
                         </a>
-                    </div>
 
                 </div>
                 
-                <div id="hideondesktop" class="col-sm-6 doubletile">
-                    <a href="https://www.ugg.com/jesse-r2-d2/1095138I.html">
-                        <img src="assets/child_blue_main_alpha.png">
-                    </a>
-                </div>
-            </div>
+            </div> <!-- End Infant R2-D2 Blue -->
 
-        </div>
+
+        </div> <!-- End of bottom section. Products and tiles -->
     </body>
-    
     <script type="text/javascript" src="style.js"></script>
-
 </html>
