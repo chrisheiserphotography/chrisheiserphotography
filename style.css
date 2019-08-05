@@ -218,6 +218,10 @@ a {
     display: inline-block
 }
 
+.lg-margin {
+    margin: 60px auto;
+}
+
 .md-margin {
     margin: 20px auto;
 }
