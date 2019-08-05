@@ -131,6 +131,8 @@ a {
 /* Triple tile is for infant r2d2 tile */
 .tripletile {
     background-color: #F8F9FA;
+    padding-right: 0 !important;
+
 }
 
 .tripletile img {
@@ -271,6 +273,7 @@ a {
 .product-left {
     right: auto !important;
     left:0;
+    width: 70% !important;
 }
 
 .product-img {
@@ -284,7 +287,7 @@ a {
 }
 
 .hundred {
-    width: 100% !important;
+    width: 102% !important;
 }
 
 /* Mobile Devices */
