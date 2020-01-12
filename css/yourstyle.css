@@ -28,8 +28,15 @@
     display: block;
 }
 
-.print {
+.print-left {
     display: inline-block;
+    float:right;
+    margin: 10px;
+}
+.print-right {
+    display: inline-block;
+    float:left;
+    margin:10px;
 }
 
 .prints-image {
@@ -38,4 +45,23 @@
     padding: 5px;
     text-align: center;
     
+}
+
+.price_title {
+     font-size:20px;
+    color:white;
+}
+
+.price_item {
+    letter-spacing: 2px;  
+    font-size: 16px;
+    color: white;
+}
+
+
+.p_horizontal_prints {
+	float:left;
+	width:100%;
+	position:relative;
+ 	height: 200px; 
 }
