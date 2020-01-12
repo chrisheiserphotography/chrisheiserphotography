@@ -49,8 +49,9 @@
 }
 
 .price_title {
-     font-size:20px;
+    font-size:25px;
     color:white;
+    font-weight:700;
 }
 
 .price_item {
