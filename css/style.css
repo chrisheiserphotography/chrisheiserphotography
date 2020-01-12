@@ -839,14 +839,7 @@ section {
 	overflow:hidden;
 }
 
-.price_title {
-     font-size:20px;
-}
 
-.price_item {
-    letter-spacing: 2px;  
-    font-size: 16px;
-}
 
 /*------item hover ------------------------------------------------*/
 .box-item {

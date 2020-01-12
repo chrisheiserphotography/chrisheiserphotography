@@ -25,7 +25,8 @@
     width:100%;
     margin: auto auto;
     text-align: center;
-    display: block;
+    display: flex;
+    
 }
 
 .print-left {
@@ -40,8 +41,8 @@
 }
 
 .prints-image {
-    width: 30%;
-    margin: 5px;
+    width: 40%;
+    margin: auto auto;
     padding: 5px;
     text-align: center;
     
